@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.card{
+    padding: 37px;
+    display: flex;
+     background-color: rgba(211, 69, 26, 0.808);
+     width: 300px;
+     height: 350px;
+     float: left;
+     margin: 20px;
+     background: linear-gradient(to right top,rgb(248, 207, 118),rgb(245, 105, 12),rgb(179, 81, 240),rgb(130, 223, 231));
+     border-radius: 30px 30px 30px 30px;
+     
+}
+
+img{
+    width: 300px;
+    height: auto;
+}

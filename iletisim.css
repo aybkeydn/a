@@ -1,0 +1,136 @@
+body{
+  
+
+ margin: 0;
+ padding: 0;
+
+ background: linear-gradient(to bottom, rgb(103, 231, 103),rgb(63, 190, 63), rgb(21, 53, 21),rgb(103, 231, 103));
+    width: 100%;
+    height: 550px;
+    padding-top: 0;
+
+  
+  
+}
+
+
+
+
+h1 {
+    
+    font-family: Futura, sans-serif;
+    cursor: pointer;
+    padding-top: 150px;
+    
+    margin: 50px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-weight:400;
+    text-align: center;
+    
+    color: #216728b6;
+}
+
+h2 {
+    
+  font-family: Futura, sans-serif;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin: 50px;
+  color: #216728b6;
+  text-align: center;
+}
+  
+ 
+
+
+img{
+  border-radius: 50px 50px 50px 50px;
+  position: absolute;
+  right: 550px;
+  width: 170px;
+  height:140px ;
+  top:30px;
+  animation: mymove 9s infinite;
+  animation-timing-function: linear;
+}
+
+
+
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1050px;}
+
+}
+
+.title-word {
+  animation: color-animation 2s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #7bc96a;
+  --color-2: #21ca18;
+  --color-3: #0f2f02;
+}
+
+.title-word-2 {
+  --color-1: #0f2f02;
+  --color-2: #7bc96a;
+  --color-3: #21ca18;
+}
+
+.title-word-3 {
+  --color-1: #21ca18;
+  --color-2: #0f2f02;
+  --color-3: #7bc96a;
+}
+
+.title-word-4 {
+  --color-1: #04ff00;
+  --color-2: #ffffff;
+  --color-3: #d9ff02;
+}
+
+
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  text-align:center;
+  padding-top: 200px;
+  text-shadow: 2px 2px 2px  #000000;
+  
+  
+  
+}
+
+a{
+ 
+ 
+  background-color: #52c450;
+  box-shadow: 10px 10px 10px  #000000;
+  font-size:x-large;
+ 
+  
+ 
+}
+
+
+
+
